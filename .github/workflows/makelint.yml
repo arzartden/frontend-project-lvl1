@@ -12,8 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: install eslint
-      run: npm install --save-dev eslint
+    - name: install project
+      run: make install
     
     - name: Run check
       run: make lint
