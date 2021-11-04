@@ -1,10 +1,10 @@
 name: makeLint
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Run eslint
-      run: make lint
+      - name: Run eslint
+        run: npx eslint .
