@@ -1,9 +1,0 @@
-name: makeLint
-on: commit
-jobs:
-  my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: my-step
-        run: make lint
