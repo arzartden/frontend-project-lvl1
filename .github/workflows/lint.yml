@@ -1,8 +1,8 @@
 name: makeLint
-on: push
+on: commit
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: make lint
+        run: npx eslint .
