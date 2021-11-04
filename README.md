@@ -4,12 +4,12 @@
 
 ### Maintainability
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/96da757da23faab2ada6/maintainability)](https://codeclimate.com/github/arzartden/frontend-project-lvl1/maintainability)
 
 ### Test Coverage
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/96da757da23faab2ada6/test_coverage)](https://codeclimate.com/github/arzartden/frontend-project-lvl1/test_coverage)
 
-# Сurrent project status
+### Сurrent project status
 
 ![example workflow](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)
