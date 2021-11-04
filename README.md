@@ -12,4 +12,4 @@
 
 ### Сurrent project status
 
-![example workflow (https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml)
+[![example workflow] (https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml)
