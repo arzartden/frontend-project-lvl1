@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 
-[![Actions Status](https://github.com/arzartden/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions)
+[![Actions Status](https://github.com/arzartden/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/hexlet-check.yml)
 
 ### Maintainability
 
@@ -12,4 +12,4 @@
 
 ### Сurrent project status
 
-[![example workflow] (https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml)
+[![example workflow](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml)
