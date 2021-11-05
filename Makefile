@@ -9,3 +9,6 @@ publish: # отладка публикации без добавления в о
 
 make lint: # запуск eslint
 	npx eslint .
+
+be: # игра "brain-even проверка на четность"
+	node bin/games/brain-even.js
