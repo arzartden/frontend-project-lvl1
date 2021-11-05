@@ -1,12 +1,12 @@
 import readlineSync from 'readline-sync';
 
-export const getRandomIntInclusive = (min, max) => {
+const getRandomIntInclusive = (min, max) => {
   const numMin = Math.ceil(min);
   const numMax = Math.floor(max);
   return Math.floor(Math.random() * (numMax - numMin + 1)) + numMin;
 };
 
-export const checkEven = () => {
+const checkEven = () => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
@@ -36,9 +36,11 @@ export const checkEven = () => {
       console.log(`'no' is wrong answer ;(. Correct answer was 'yes'. \n Let's try again, ${name}!`);
       return;
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes' or 'no'.`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer should have been 'yes' or 'no'.`);
       return;
     }
   }
   console.log(`Congratulations, ${name}!`);
 };
+
+export default checkEven;
