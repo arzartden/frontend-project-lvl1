@@ -13,13 +13,13 @@ const checkEven = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   let choiceNumUser;
   let answer;
+  let result = 0;
   const getAnswer = () => {
     choiceNumUser = getRandomIntInclusive(1, 100);
     console.log(`Question: ${choiceNumUser}`);
     answer = readlineSync.question('Your answer: ');
   };
   getAnswer();
-  let result = 0;
   while (result < 2) {
     if (answer === 'yes' && choiceNumUser % 2 === 0) {
       console.log('Correct!');
@@ -40,6 +40,7 @@ const checkEven = () => {
       return;
     }
   }
+  console.log('Correct!');
   console.log(`Congratulations, ${name}!`);
 };
 
