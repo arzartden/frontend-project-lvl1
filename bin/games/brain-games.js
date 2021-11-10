@@ -2,4 +2,4 @@
 
 import cli from '../../src/cli.js';
 
-cli();
+cli('May I have your name? ');
