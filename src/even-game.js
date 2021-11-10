@@ -1,8 +1,7 @@
 import readlineSync from 'readline-sync';
 
 let userName;
-let shownNumber;
-let userAnswer;
+let randomNum;
 
 // начальная функция для вывода приветствия и получения имени пользователя
 const getUserNameHello = () => {
@@ -13,33 +12,31 @@ const getUserNameHello = () => {
 };
 
 // функция для получения случайного целого числа из интвервала включительно
-const getRandomIntInclusive = (min, max) => {
-  const numMin = Math.ceil(min);
-  const numMax = Math.floor(max);
-  return Math.floor(Math.random() * (numMax - numMin + 1)) + numMin;
+const getRandomNumber = (min, max) => {
+  randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+  return randomNum;
 };
 
-// функция для вывода числа пользователю и получения ответа пользователя
-const getAnswer = () => {
-  shownNumber = getRandomIntInclusive(1, 100);
-  console.log(`Question: ${shownNumber}`);
-  userAnswer = readlineSync.question('Your answer: ');
+// функция для вывода числа пользователю
+const showNum = () => {
+  randomNum = getRandomNumber(1, 100);
+  console.log(`Question: ${randomNum}`);
 };
 
 // основная функция для экспорта логики игры brain-even
 const checkEven = () => {
   getUserNameHello();
   for (let i = 1; i <= 3; i += 1) {
-    getAnswer();
-    if (shownNumber % 2 === 0 && userAnswer === 'yes') {
-      console.log('Correct!');
-    } else if (shownNumber % 2 !== 0 && userAnswer === 'no') {
-      console.log('Correct!');
-    } else if (shownNumber % 2 === 0 && userAnswer !== 'yes') {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'yes'. \n Let's try again, ${userName}!`);
-      return;
-    } else if (shownNumber % 2 !== 0 && userAnswer !== 'no') {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no'. \n Let's try again, ${userName}!`);
+    showNum();
+    const outputTextforEven = (randomNum % 2 === 0) ? 'yes' : 'no';
+    const answer = readlineSync.question('Your answer: ');
+    const correctAnswer = 'Correct!';
+    const wrongAnswer = `'${answer}' is wrong answer ;(. Correct answer was '${outputTextforEven}'.`;
+    const variable = answer === outputTextforEven ? correctAnswer : wrongAnswer;
+    if (variable === correctAnswer) {
+      console.log(correctAnswer);
+    } else {
+      console.log(wrongAnswer);
       return;
     }
   }
