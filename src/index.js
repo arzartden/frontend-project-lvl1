@@ -1,16 +1,16 @@
-import readlineSync from 'readline-sync';
+// import readlineSync from 'readline-sync';
 
-console.log('Welcome to the Brain Games!');
+// // console.log('Welcome to the Brain Games!');
 
-const getNameForHello = (questionToTheUser) => {
-  const name = readlineSync.question(questionToTheUser);
-  console.log(`Hello, ${name}!`);
-};
+// // const getNameForHello = (questionToTheUser) => {
+// //   const name = readlineSync.question(questionToTheUser);
+// //   console.log(`Hello, ${name}!`);
+// // };
 
-const getAnswerFromTheUser = (answerUser) => {
-  const answer = readlineSync.question(answerUser);
-};
+// // const getAnswerFromTheUser = (answerUser) => {
+// //   const answer = readlineSync.question(answerUser);
+// // };
 
-const checkAnswerUser = () => {
-  
-};
+// // const checkAnswerUser = () => {
+
+// // };
