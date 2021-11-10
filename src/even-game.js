@@ -1,8 +1,12 @@
 import readlineSync from 'readline-sync';
 
+// имя пользователя
 let userName;
+// случайное число
 let randomNum;
+// ответпользователя
 let answer;
+// текстовое значение(yes or no) для четности/нечетности показанного числа (для сравнения)
 let outputTextforEven;
 
 // функция для получения имени пользователя
@@ -39,9 +43,10 @@ const checkEven = () => {
     getAnswerFromTheUser();
     const correctAnswer = 'Correct!';
     const wrongAnswer = `'${answer}' is wrong answer ;(. Correct answer was '${outputTextforEven}'.`;
-    const variable = answer === outputTextforEven ? correctAnswer : wrongAnswer;
+    const variable = (answer === outputTextforEven) ? correctAnswer : wrongAnswer;
     if (variable !== correctAnswer) {
       console.log(wrongAnswer);
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
     console.log(correctAnswer);
