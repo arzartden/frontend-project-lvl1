@@ -14,8 +14,8 @@ export const calculateArrayExpression = (arr) => {
       result *= value;
     }
   }
-  const resultToStr = String(result);
-  return resultToStr;
+  // const resultToStr = String(result);
+  return result;
 };
 
 // генерирует операнды и оператора для выражения
@@ -25,7 +25,7 @@ export const showGenerateExpression = (funcRandomVariable) => {
   const operators = ['+', '-', '*'];
   const elementArr = funcRandomVariable(0, 2);
   const randomExpressionArray = [randomNum1, operators[elementArr], randomNum2];
-  const expectedResponse = calculateArrayExpression(randomExpressionArray);
+  const expectedResponse = String(calculateArrayExpression(randomExpressionArray));
   console.log(`Question: ${randomExpressionArray.join(' ')}`);
   return expectedResponse;
 };
