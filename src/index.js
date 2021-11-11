@@ -1,6 +1,4 @@
 import readlineSync from 'readline-sync';
-// import * as calcModule from './games/calc-game.js';
-// import * as evenModule from './games/even-game.js';
 
 let userName;
 let answer;
