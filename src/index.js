@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
-import * as calcGame from './games/calc-game.js';
+// import * as calcModule from './games/calc-game.js';
+// import * as evenModule from './games/even-game.js';
 
 let userName;
 let answer;
@@ -32,16 +33,17 @@ const checkResponce = (expectedResponse) => {
     out = true;
     console.log(wrongAnswer);
     console.log(`Let's try again, ${userName}!`);
+    return;
   }
   console.log(correctAnswer);
 };
 
-const mainFunction = () => {
+const mainFunction = (nameModuleGame) => {
   console.log('Welcome to the Brain Games!');
   getUserNameHello('May I have your name? ');
-  console.log(calcGame.taskText);
+  console.log(nameModuleGame.taskText);
   for (let i = 1; i <= 3; i += 1) {
-    checkResponce(calcGame.showGenerateExpression(getRandomNumber));
+    checkResponce(nameModuleGame.showGenerateExpression(getRandomNumber));
     if (out === true) return;
   }
   console.log(`Congratulations, ${userName}!`);

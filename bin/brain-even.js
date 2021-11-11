@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import evenGame from '../src/games/even-game.js';
+import mainFunction from '../src/index.js';
+import * as calcFunction from '../src/games/even-game.js';
 
-evenGame();
+mainFunction(calcFunction);

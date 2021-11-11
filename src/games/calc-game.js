@@ -19,11 +19,11 @@ export const calculateArrayExpression = (arr) => {
 };
 
 // генерирует операнды и оператора для выражения
-export const showGenerateExpression = (randomVariable) => {
-  const randomNum1 = randomVariable(1, 25);
-  const randomNum2 = randomVariable(1, 25);
+export const showGenerateExpression = (funcRandomVariable) => {
+  const randomNum1 = funcRandomVariable(1, 25);
+  const randomNum2 = funcRandomVariable(1, 25);
   const operators = ['+', '-', '*'];
-  const elementArr = randomVariable(0, 2);
+  const elementArr = funcRandomVariable(0, 2);
   const randomExpressionArray = [randomNum1, operators[elementArr], randomNum2];
   const expectedResponse = calculateArrayExpression(randomExpressionArray);
   console.log(`Question: ${randomExpressionArray.join(' ')}`);
