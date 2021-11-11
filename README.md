@@ -12,3 +12,7 @@
 ## The **_brain-calc_** game process.
 
 [![asciicast](https://asciinema.org/a/payCcftNHpUO8B9EGLnyrpHAj.svg)](https://asciinema.org/a/payCcftNHpUO8B9EGLnyrpHAj)
+
+## The **_brain-gcd_** game process.
+
+[![asciicast](https://asciinema.org/a/9ut92JQyw2ejrZnWCZueOnzCH.svg)](https://asciinema.org/a/9ut92JQyw2ejrZnWCZueOnzCH)
