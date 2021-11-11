@@ -2,8 +2,6 @@ import readlineSync from 'readline-sync';
 
 // имя пользователя
 let userName;
-// случайное число
-let randomNum;
 // ответпользователя
 let answer;
 // текстовое значение(yes or no) для четности/нечетности показанного числа (для сравнения)
@@ -17,13 +15,13 @@ const getUserNameHello = () => {
 
 // функция для получения случайного целого числа из интвервала включительно
 const getRandomNumber = (min, max) => {
-  randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+  const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
   return randomNum;
 };
 
 // функция для вывода числа пользователю
 const showNum = () => {
-  randomNum = getRandomNumber(1, 100);
+  const randomNum = getRandomNumber(1, 100);
   expectedResponse = (randomNum % 2 === 0) ? 'yes' : 'no';
   console.log(`Question: ${randomNum}`);
 };
