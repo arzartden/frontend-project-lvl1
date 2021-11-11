@@ -7,7 +7,7 @@ let randomNum;
 // ответпользователя
 let answer;
 // текстовое значение(yes or no) для четности/нечетности показанного числа (для сравнения)
-let outputTextforEven;
+let expectedResponse;
 
 // функция для получения имени пользователя
 const getUserNameHello = () => {
@@ -24,7 +24,7 @@ const getRandomNumber = (min, max) => {
 // функция для вывода числа пользователю
 const showNum = () => {
   randomNum = getRandomNumber(1, 100);
-  outputTextforEven = (randomNum % 2 === 0) ? 'yes' : 'no';
+  expectedResponse = (randomNum % 2 === 0) ? 'yes' : 'no';
   console.log(`Question: ${randomNum}`);
 };
 
@@ -42,8 +42,8 @@ const checkEven = () => {
     showNum();
     getAnswerFromTheUser();
     const correctAnswer = 'Correct!';
-    const wrongAnswer = `'${answer}' is wrong answer ;(. Correct answer was '${outputTextforEven}'.`;
-    const variable = (answer === outputTextforEven) ? correctAnswer : wrongAnswer;
+    const wrongAnswer = `'${answer}' is wrong answer ;(. Correct answer was '${expectedResponse}'.`;
+    const variable = (answer === expectedResponse) ? correctAnswer : wrongAnswer;
     if (variable !== correctAnswer) {
       console.log(wrongAnswer);
       console.log(`Let's try again, ${userName}!`);
