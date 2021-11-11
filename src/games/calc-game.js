@@ -14,7 +14,6 @@ export const calculateArrayExpression = (arr) => {
       result *= value;
     }
   }
-  // const resultToStr = String(result);
   return result;
 };
 

@@ -11,13 +11,13 @@ const getUserNameHello = (questionToTheUser) => {
 };
 
 // функция для получения случайного целого числа из интвервала включительно
-const getRandomNumber = (min, max) => {
+export const getRandomNumber = (min, max) => {
   const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
   return randomNum;
 };
 
 // получение ответа пользователя
-export const getAnswerFromTheUser = (userResponce) => {
+const getAnswerFromTheUser = (userResponce) => {
   answer = readlineSync.question(userResponce);
 };
 
