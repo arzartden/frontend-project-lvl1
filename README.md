@@ -16,3 +16,7 @@
 ## The **_brain-gcd_** game process.
 
 [![asciicast](https://asciinema.org/a/9ut92JQyw2ejrZnWCZueOnzCH.svg)](https://asciinema.org/a/9ut92JQyw2ejrZnWCZueOnzCH)
+
+## The **_brain-progression_** game process.
+
+[![asciicast](https://asciinema.org/a/jfojSgDMh9mqCgtFrcNLhzpBq.svg)](https://asciinema.org/a/jfojSgDMh9mqCgtFrcNLhzpBq)
