@@ -20,3 +20,7 @@
 ## The **_brain-progression_** game process.
 
 [![asciicast](https://asciinema.org/a/jfojSgDMh9mqCgtFrcNLhzpBq.svg)](https://asciinema.org/a/jfojSgDMh9mqCgtFrcNLhzpBq)
+
+## The **_brain-prime_** game process.
+
+[![asciicast](https://asciinema.org/a/bSIYXpCnTwSW8vWpAsBdBXpW8.svg)](https://asciinema.org/a/bSIYXpCnTwSW8vWpAsBdBXpW8)
