@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import cli from '../src/cli.js';
+import greeting from '../src/cli.js';
 
-cli('May I have your name? ');
+greeting();
