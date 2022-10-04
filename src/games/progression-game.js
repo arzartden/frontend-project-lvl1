@@ -1,25 +1,29 @@
-// создаем массив чисел арифм. прогрессии
-export const getArray = (funcRandomVariable) => {
-  const randomProgressionLength = funcRandomVariable(4, 9);
-  const differenceOfNumbers = funcRandomVariable(2, 10);
-  let elementArr = funcRandomVariable(1, 100);
-  const newArr = [];
-  for (let i = 0; i <= randomProgressionLength; i += 1) {
-    newArr[i] = elementArr;
-    elementArr += differenceOfNumbers;
+import engineFunction from '../index.js';
+
+const getProgression = () => {
+  const randomProgressionLength = Math.floor(Math.random() * (10 - 5 + 1)) + 5;
+  const randomStepProgression = Math.floor(Math.random() * 10) + 1;
+  let randomElementProgression = Math.floor(Math.random() * 101);
+  const progression = [];
+
+  for (let i = 0; i < randomProgressionLength; i += 1) {
+    progression[i] = randomElementProgression;
+    randomElementProgression += randomStepProgression;
   }
-  return newArr;
+
+  return progression;
 };
 
-// генерирует числа для задания
-export const showGenerateExpression = (funcRandomVariable) => {
-  const randomExpressionArray = getArray(funcRandomVariable);
-  const itemElements = randomExpressionArray.length - 1;
-  const numElem = funcRandomVariable(0, itemElements);
-  const expectedResponse = String(randomExpressionArray[numElem]);
-  randomExpressionArray[numElem] = '..';
-  console.log(`Question: ${randomExpressionArray.join(' ')}`);
-  return expectedResponse;
+const getDataForGame = () => {
+  const rule = 'What number is missing in the progression?';
+  const progression = getProgression();
+  const numHiddenElement = Math.floor(Math.random() * progression.length);
+  const expectedResponse = String(progression[numHiddenElement]);
+  progression[numHiddenElement] = '..';
+
+  const valueForQuestion = progression.join(' ');
+
+  return [rule, valueForQuestion, expectedResponse];
 };
 
-export const taskText = 'What number is missing in the progression?';
+export default () => engineFunction(getDataForGame);
