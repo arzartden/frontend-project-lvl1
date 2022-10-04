@@ -4,7 +4,7 @@
 
   <a href="">[![Actions Status](https://github.com/arzartden/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/hexlet-check.yml)</a>
   <a href="">[![Maintainability](https://api.codeclimate.com/v1/badges/96da757da23faab2ada6/maintainability)](https://codeclimate.com/github/arzartden/frontend-project-lvl1/maintainability)</a>
-  <a href="">[![example workflow](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml)</a>
+  <a href="">[![project-check](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/project-check.yml/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/project-check.yml)</a>
 
 </div>
 
@@ -22,21 +22,21 @@ The **Mind Games** is a set of five console games built on the principle of popu
 ### Project installation and the `brain-even` game process.
 >  The essence of the game:
 >
->  A random number is shown to the user. He needs to answer `yes` if the number is even, or `no` if it is odd.
+>  A random number is shown to the user. He needs to answer **yes** if the number is even, or **no** if it is odd.
 
 [![asciicast](https://asciinema.org/a/OqSvTS8MucGrvZecsxwzufBGN.svg)](https://asciinema.org/a/OqSvTS8MucGrvZecsxwzufBGN)
 
 ### The `brain-calc` game process
 >  The essence of the game:
 >
->  The user is shown a random mathematical expression, for example `35 + 16`, which needs to be calculated and written down the correct answer.
+>  The user is shown a random mathematical expression, for example **35 + 16**, which needs to be calculated and written down the correct answer.
 
 [![asciicast](https://asciinema.org/a/MKBEAmHgbY1p6lnSViObi6KjG.svg)](https://asciinema.org/a/MKBEAmHgbY1p6lnSViObi6KjG)
 
 ### The `brain-gcd` game process
 >  The essence of the game:
 >
->  The user is shown two random numbers, for example, `25 50`. The user must calculate and enter the greatest common divisor of these numbers.
+>  The user is shown two random numbers, for example, **25 50**. The user must calculate and enter the greatest common divisor of these numbers.
 
 [![asciicast](https://asciinema.org/a/HC4A0j88g2mUH5zhyEdT6qclk.svg)](https://asciinema.org/a/HC4A0j88g2mUH5zhyEdT6qclk)
 
@@ -46,7 +46,6 @@ The **Mind Games** is a set of five console games built on the principle of popu
 [![asciicast](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE.svg)](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE)
 
 ### The `brain-prime` game process
-> Is it a prime number?
-> Answer `yes` or `no`.
+> Is it a prime number? Answer **yes** or **no**.
 
 [![asciicast](https://asciinema.org/a/LBxo1AmOTNeISUcpFZayxqDIE.svg)](https://asciinema.org/a/LBxo1AmOTNeISUcpFZayxqDIE)
