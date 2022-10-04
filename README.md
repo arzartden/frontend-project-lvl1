@@ -16,8 +16,12 @@ The **Mind Games** is a set of five console games built on the principle of popu
  - Definition of an even number.
  - Determination of the greatest common divisor.
  - Definition of a prime number.
- 
+
+<br>
+
 ---
+
+<br>
 
 ### Project installation and the `brain-even` game process.
 >  The essence of the game:
@@ -26,12 +30,24 @@ The **Mind Games** is a set of five console games built on the principle of popu
 
 [![asciicast](https://asciinema.org/a/OqSvTS8MucGrvZecsxwzufBGN.svg)](https://asciinema.org/a/OqSvTS8MucGrvZecsxwzufBGN)
 
+<br>
+
+---
+
+<br>
+
 ### The `brain-calc` game process
 >  The essence of the game:
 >
 >  The user is shown a random mathematical expression, for example **35 + 16**, which needs to be calculated and written down the correct answer.
 
 [![asciicast](https://asciinema.org/a/MKBEAmHgbY1p6lnSViObi6KjG.svg)](https://asciinema.org/a/MKBEAmHgbY1p6lnSViObi6KjG)
+
+<br>
+
+---
+
+<br>
 
 ### The `brain-gcd` game process
 >  The essence of the game:
@@ -40,10 +56,24 @@ The **Mind Games** is a set of five console games built on the principle of popu
 
 [![asciicast](https://asciinema.org/a/HC4A0j88g2mUH5zhyEdT6qclk.svg)](https://asciinema.org/a/HC4A0j88g2mUH5zhyEdT6qclk)
 
+<br>
+
+---
+
+<br>
+
 ### The `brain-progression` game process
 > We show the player a series of numbers forming an arithmetic progression by replacing any of the numbers with two dots. The player must determine this number.
 
+<br>
+
 [![asciicast](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE.svg)](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE)
+
+<br>
+
+---
+
+<br>
 
 ### The `brain-prime` game process
 > Is it a prime number? Answer **yes** or **no**.
