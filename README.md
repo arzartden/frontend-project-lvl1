@@ -1,25 +1,52 @@
-# **_Brain-games_** project.
+<div align="center">
 
-[![Actions Status](https://github.com/arzartden/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/hexlet-check.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/96da757da23faab2ada6/maintainability)](https://codeclimate.com/github/arzartden/frontend-project-lvl1/maintainability)
-[![example workflow](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml)
+  ## The Mind Games Project
 
-## Project installation and the **_brain-even_** game process.
+  <a href="">[![Actions Status](https://github.com/arzartden/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/hexlet-check.yml)</a>
+  <a href="">[![Maintainability](https://api.codeclimate.com/v1/badges/96da757da23faab2ada6/maintainability)](https://codeclimate.com/github/arzartden/frontend-project-lvl1/maintainability)</a>
+  <a href="">[![example workflow](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/makelint.yml)</a>
 
-[![asciicast](https://asciinema.org/a/vXxrgi6bTiYwn7KNF0EPgnZK2.svg)](https://asciinema.org/a/vXxrgi6bTiYwn7KNF0EPgnZK2)
+</div>
 
-## The **_brain-calc_** game process.
+### Description
 
-[![asciicast](https://asciinema.org/a/payCcftNHpUO8B9EGLnyrpHAj.svg)](https://asciinema.org/a/payCcftNHpUO8B9EGLnyrpHAj)
+The **Mind Games** is a set of five console games built on the principle of popular mobile applications for brain pumping. Each game asks questions that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again. Games:
+ - Calculator. Arithmetic expressions that need to be calculated.
+ - Progression. Search for missing numbers in a sequence of numbers.
+ - Definition of an even number.
+ - Determination of the greatest common divisor.
+ - Definition of a prime number.
+ 
+---
 
-## The **_brain-gcd_** game process.
+### Project installation and the `brain-even` game process.
+>  The essence of the game:
+>
+>  A random number is shown to the user. He needs to answer `yes` if the number is even, or `no` if it is odd.
 
-[![asciicast](https://asciinema.org/a/9ut92JQyw2ejrZnWCZueOnzCH.svg)](https://asciinema.org/a/9ut92JQyw2ejrZnWCZueOnzCH)
+[![asciicast](https://asciinema.org/a/OqSvTS8MucGrvZecsxwzufBGN.svg)](https://asciinema.org/a/OqSvTS8MucGrvZecsxwzufBGN)
 
-## The **_brain-progression_** game process.
+### The `brain-calc` game process
+>  The essence of the game:
+>
+>  The user is shown a random mathematical expression, for example `35 + 16`, which needs to be calculated and written down the correct answer.
 
-[![asciicast](https://asciinema.org/a/jfojSgDMh9mqCgtFrcNLhzpBq.svg)](https://asciinema.org/a/jfojSgDMh9mqCgtFrcNLhzpBq)
+[![asciicast](https://asciinema.org/a/MKBEAmHgbY1p6lnSViObi6KjG.svg)](https://asciinema.org/a/MKBEAmHgbY1p6lnSViObi6KjG)
 
-## The **_brain-prime_** game process.
+### The `brain-gcd` game process
+>  The essence of the game:
+>
+>  The user is shown two random numbers, for example, `25 50`. The user must calculate and enter the greatest common divisor of these numbers.
 
-[![asciicast](https://asciinema.org/a/bSIYXpCnTwSW8vWpAsBdBXpW8.svg)](https://asciinema.org/a/bSIYXpCnTwSW8vWpAsBdBXpW8)
+[![asciicast](https://asciinema.org/a/HC4A0j88g2mUH5zhyEdT6qclk.svg)](https://asciinema.org/a/HC4A0j88g2mUH5zhyEdT6qclk)
+
+### The `brain-progression` game process
+> We show the player a series of numbers forming an arithmetic progression by replacing any of the numbers with two dots. The player must determine this number.
+
+[![asciicast](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE.svg)](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE)
+
+### The `brain-prime` game process
+> Is it a prime number?
+> Answer `yes` or `no`.
+
+[![asciicast](https://asciinema.org/a/LBxo1AmOTNeISUcpFZayxqDIE.svg)](https://asciinema.org/a/LBxo1AmOTNeISUcpFZayxqDIE)
