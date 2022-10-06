@@ -65,8 +65,6 @@ The **Mind Games** is a set of five console games built on the principle of popu
 ### The `brain-progression` game process
 > We show the player a series of numbers forming an arithmetic progression by replacing any of the numbers with two dots. The player must determine this number.
 
-<br>
-
 [![asciicast](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE.svg)](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE)
 
 <br>
