@@ -1,6 +1,6 @@
 <div align="center">
 
-  ## The Mind Games Project
+  ## The Brain Games Project
 
   <a href="">[![Actions Status](https://github.com/arzartden/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/arzartden/frontend-project-lvl1/actions/workflows/hexlet-check.yml)</a>
   <a href="">[![Maintainability](https://api.codeclimate.com/v1/badges/96da757da23faab2ada6/maintainability)](https://codeclimate.com/github/arzartden/frontend-project-lvl1/maintainability)</a>
@@ -10,7 +10,7 @@
 
 ### Description
 
-The **Mind Games** is a set of five console games built on the principle of popular mobile applications for brain pumping. Each game asks questions that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again. Games:
+The **Brain Games** is a set of five console games built on the principle of popular mobile applications for brain pumping. Each game asks questions that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again. Games:
  - Calculator. Arithmetic expressions that need to be calculated.
  - Progression. Search for missing numbers in a sequence of numbers.
  - Definition of an even number.
