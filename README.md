@@ -32,20 +32,12 @@ The **Brain Games** is a set of five console games built on the principle of pop
 
 <br>
 
----
-
-<br>
-
 ### The `brain-calc` game process
 >  The essence of the game:
 >
 >  The user is shown a random mathematical expression, for example **35 + 16**, which needs to be calculated and written down the correct answer.
 
 [![asciicast](https://asciinema.org/a/MKBEAmHgbY1p6lnSViObi6KjG.svg)](https://asciinema.org/a/MKBEAmHgbY1p6lnSViObi6KjG)
-
-<br>
-
----
 
 <br>
 
@@ -58,18 +50,10 @@ The **Brain Games** is a set of five console games built on the principle of pop
 
 <br>
 
----
-
-<br>
-
 ### The `brain-progression` game process
 > We show the player a series of numbers forming an arithmetic progression by replacing any of the numbers with two dots. The player must determine this number.
 
 [![asciicast](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE.svg)](https://asciinema.org/a/dd1cop65sHisSjFXww6p7JyZE)
-
-<br>
-
----
 
 <br>
 
